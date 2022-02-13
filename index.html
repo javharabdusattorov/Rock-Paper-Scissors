@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>  
+
+  <header>
+    <div class="container game__container">
+        <div class="row justify-content-center text-center">
+          <h1 class="heading">Welcome in our Game</h1>
+          <form class="form">
+              <div class="col-2 mt-3 mx-auto">
+                  <select class="form-select form__select">
+                      <option value="0">Rock</option>
+                      <option value="1">Paper</option>
+                      <option value="2">Scissors</option>
+                  </select>
+              </div>
+              <div class="col-4 mt-3 mx-auto">
+                  <button class="btn btn-danger form__btn">Click</button>
+              </div>
+          </form>
+  
+             <div class="col-5 mt-3">
+                 <h3>You</h3>
+              <img class="resultMyIMG none">
+             </div>
+             <div class="col-5 mt-3">
+                 <h3>PC</h3>
+              <img class="resultKompIMG none">
+             </div>
+          <h2 class="result__heading mt-3"></h2>
+        </div>
+    </div>
+  </header>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
