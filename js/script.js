@@ -60,8 +60,8 @@ elForm.addEventListener('submit', function(evt) {
     }
 
     if (result === 0) elResultHeading.textContent = "Equal";
-    else if (result === 1) elResultHeading.textContent = "Win";
-    else if (result === -1) elResultHeading.textContent = "Loser";
+    else if (result === 1) elResultHeading.textContent = "You Win!!!";
+    else if (result === -1) elResultHeading.textContent = "You Lose";
 
 
 })
